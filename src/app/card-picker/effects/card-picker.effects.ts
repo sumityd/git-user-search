@@ -18,6 +18,7 @@ export class CardPickerEffects {
     private cardService: CardPickerService
   ) {}
 
+  // here impleting effect which is cause an side effect may be succes action or failed
   @Effect()
   fetchCardData$: Observable<Action> = this.actions$.pipe(
     ofType(CardPickerActionTypes.FETCH_CARD_DATA),

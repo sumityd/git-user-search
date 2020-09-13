@@ -1,5 +1,7 @@
+<!-- it is used for shuffle card -->
 <button class="shuffle-button cp" (click)="shuffle(cardData)">Shuffle Card</button>
 
+<!-- it is showing the all 52 card -->
 <div class="df" style="flex-wrap: wrap;padding: 0px 65px;">
     <div class="df" *ngFor="let card of cardData">
         <div class="df card-view cp" (click)="selectCard(card)">

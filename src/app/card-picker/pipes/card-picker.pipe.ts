@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from "@angular/core";
 
+// this pipe is genrating the image path according to which type of card
 @Pipe({
   name: "cardImagePicker",
 })

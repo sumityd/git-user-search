@@ -3,7 +3,7 @@ import {
   CardPickerActions,
   CardPickerActionTypes,
 } from "../actions/card-picker.actions";
-
+//  it is a reducer which is basically changes the store
 export function CardPickerReducer(
   state: CardPicker = intialCardPickerState,
   action: CardPickerActions

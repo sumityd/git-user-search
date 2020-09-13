@@ -6,6 +6,7 @@ export enum CardPickerActionTypes {
   FETCH_CARD_DATA_FAILED = "[CardPicker] fetchCardDataFailed",
 }
 
+// here impleting all action
 export class FetchCardData implements Action {
   readonly type = CardPickerActionTypes.FETCH_CARD_DATA;
   constructor(public payload: any) {}
@@ -19,6 +20,7 @@ export class FetchCardDataFailed implements Action {
   constructor(public payload: any) {}
 }
 
+// here exporting all action class
 export type CardPickerActions =
   | FetchCardData
   | FetchCardDataSuccess
