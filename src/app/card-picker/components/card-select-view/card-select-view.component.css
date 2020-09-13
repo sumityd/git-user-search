@@ -1,0 +1,52 @@
+.df {
+  display: flex;
+}
+
+.ai {
+  align-items: center;
+}
+
+.sf {
+  font-size: 12px;
+}
+
+.mf {
+  font-size: 14px;
+}
+
+.lf {
+  font-size: 16px;
+}
+
+.fw {
+  font-weight: 500;
+}
+
+.cl {
+  color: white;
+}
+
+.bc {
+  background-color: #0086da;
+}
+
+.jc {
+  justify-content: space-between;
+}
+
+.lg {
+  color: #a6a6a6;
+}
+
+::ng-deep .mat-dialog-container {
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.card-view {
+  border: 1px solid lightgray;
+  padding: 10px;
+  height: 180px;
+  width: 110px;
+  margin: 10px;
+}

@@ -1,0 +1,14 @@
+.df {
+  display: flex;
+}
+
+.ai {
+  align-items: center;
+}
+
+.card-header {
+  color: white;
+  background-color: red;
+  height: 40px;
+  padding: 0px 10px;
+}
