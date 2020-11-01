@@ -1,0 +1,29 @@
+.search {
+  width: 30vw;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid rgba(90, 104, 114, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-size: 14px;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  color: #8c9ba5;
+  right: 5px;
+  top: 6px;
+}
+
+.search-bp {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.user-change-btn {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-left: 10px;
+}

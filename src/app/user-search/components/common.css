@@ -1,0 +1,83 @@
+.df {
+  display: flex;
+}
+
+.ai {
+  align-items: center;
+}
+
+.elf {
+  font-size: 20px;
+}
+
+.xlf {
+  font-size: 18px;
+}
+
+.lf {
+  font-size: 16px;
+}
+
+.mf {
+  font-size: 14px;
+}
+
+.sf {
+  font-size: 12px;
+}
+
+.dt {
+  color: #152935;
+}
+
+.mt {
+  color: #5a6872;
+}
+
+.gt {
+  color: #969696;
+}
+
+.pc {
+  color: #0086da;
+}
+.rpc {
+  color: #e71d32;
+}
+
+.fw {
+  font-weight: 500;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #0086da;
+  color: white;
+  font-size: 16px;
+  line-height: 35px;
+  pointer-events: all;
+  min-width: 6rem;
+  max-width: fit-content;
+}
+.disable-button {
+  background-color: rgb(218, 213, 213);
+  color: #152935 !important;
+  font-size: 16px;
+  line-height: 35px;
+  pointer-events: none;
+  min-width: 6rem;
+  max-width: fit-content;
+}
+.action {
+  display: flex;
+  cursor: pointer;
+  color: #0086da;
+  font-size: 16px;
+  font-weight: 500;
+}
+.delete {
+  background-color: #e71d32 !important;
+}

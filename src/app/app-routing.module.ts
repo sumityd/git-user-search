@@ -4,13 +4,13 @@ import { Routes, RouterModule } from '@angular/router';
 // here implementing lazy loading 
 const routes: Routes = [
   {
-    path: "card-picker",
+    path: "user",
     loadChildren: () =>
-      import("./card-picker/card-picker.module").then(
-        (m) => m.CardPickerModule
+      import("./user-search/user-search.module").then(
+        (m) => m.UserSearchModule
       ),
   },
-  { path: "**", redirectTo: "card-picker", pathMatch: "full" },
+  { path: "**", redirectTo: "user", pathMatch: "full" },
 ];
 
 @NgModule({

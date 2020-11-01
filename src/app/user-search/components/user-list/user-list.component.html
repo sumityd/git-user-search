@@ -1,0 +1,27 @@
+<div class="df ai" style="padding: 10px;">
+
+    <span class="gt mf b-count">
+        Total User {{ userCount$ | async }}
+    </span>
+
+    <div class="search-bp">
+        <input #search type="text" class="search" [(ngModel)]="searchKey" placeholder="search by user name" />
+        <mat-icon *ngIf="!searchKey" class="search-icon">search</mat-icon>
+        <mat-icon *ngIf="searchKey" class="search-icon cp" (click)="closeSearch()">close</mat-icon>
+    </div>
+
+    <div class="df ai user-change-btn">
+        <button mat-icon-button (click)="change('previuos')">
+            <mat-icon>skip_previous</mat-icon>
+        </button>
+        <div>{{page}}</div>
+        <button mat-icon-button (click)="change('next')">
+            <mat-icon>skip_next</mat-icon>
+        </button>
+    </div>
+
+</div>
+
+<div *ngFor="let user of userList$ | async">
+    <app-user-item [user]="user"></app-user-item>
+</div>

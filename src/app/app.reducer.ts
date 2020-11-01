@@ -1,9 +1,9 @@
 import { ActionReducerMap, ActionReducer, MetaReducer } from "@ngrx/store";
-import * as fromCardPicker from "../app/card-picker/reducers/card-picker.reducer";
+import * as fromUser from "../app/user-search/reducers/user-search.reducer";
 import { AppState } from "./interface";
 
 export const reducer: ActionReducerMap<AppState> = {
-  state: fromCardPicker.CardPickerReducer,
+  state: fromUser.UserReducer,
 };
 
 export function logger(

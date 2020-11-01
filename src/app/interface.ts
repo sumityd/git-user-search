@@ -1,5 +1,5 @@
-import { CardPicker } from "./card-picker/reducers/card-picker.state";
+import { User } from './user-search/reducers/user-search.state';
 
 export interface AppState {
-  state: CardPicker;
+  state: User;
 }

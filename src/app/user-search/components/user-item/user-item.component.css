@@ -1,0 +1,17 @@
+.circle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  color: #ffffff;
+  line-height: 2rem;
+  text-align: center;
+  margin: 4px;
+}
+
+.user-item {
+  border: 1px solid lightgrey;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
