@@ -21,7 +21,9 @@
     </div>
 
 </div>
-
-<div *ngFor="let user of userList$ | async">
-    <app-user-item [user]="user"></app-user-item>
+<div class="df" style="flex-wrap: wrap;">
+    <div *ngFor="let user of userList$ | async">
+        <app-user-item [user]="user" *ngIf="(user?.followers_url | getUserDetail) | async as followers"
+            [followers]="followers"></app-user-item>
+    </div>
 </div>

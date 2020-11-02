@@ -1,7 +1,11 @@
-<div class="df ai user-item">
-    <div>{{user?.login}}</div>
-    <img class="circle" src="{{user?.avatar_url}}">
-    <!-- <div *ngIf="(user?.followers_url | getUserDetail) | async as followers">
+<div class="df user-item" style="flex-direction: column;">
+    <div class="df ai">
+        <div>{{user?.login}}</div>
+        <img class="circle" src="{{user?.avatar_url}}">
+    </div>
+   
+    <div class="mf gt">
+        <span>Follower</span>
         {{followers.length}}
-    </div> -->
+    </div>
 </div>

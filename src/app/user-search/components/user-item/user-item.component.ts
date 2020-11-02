@@ -9,6 +9,7 @@ import { Observable } from "rxjs";
 export class UserItemComponent implements OnInit {
   
   @Input() user:any;
+  @Input() followers:any;
   constructor() {}
 
   ngOnInit() {}
